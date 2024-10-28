@@ -7,7 +7,7 @@ hero:
   text: "Options Standard"
   tagline: Bringing Option Contracts to Solana
   image:
-    src: /src/image/here.png
+    src: /public/HeroDesign2.1.png
     alt: ""
   actions:
     - theme: brand
