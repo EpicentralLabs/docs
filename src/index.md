@@ -3,16 +3,16 @@
 layout: home
 
 hero:
-  name: "Solana"
-  text: "Options Standard"
-  tagline: Bringing Option Contracts to Solana
+  name: "Solana Options"
+  text: "Standard"
+  tagline: Bringing Option Contracts OnChain
   image:
     src: /public/HeroDesign2.1.png
     alt: ""
   actions:
     - theme: brand
       text: Learn More
-      link: /about
+      link: /introduction/about
     - theme: alt
       text: Discord
       link: https://discord.gg/5asAuY2sR8
