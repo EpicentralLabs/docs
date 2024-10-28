@@ -2,5 +2,6 @@
 node_modules
 
 # Vitepress build files
-.vitepress/dist
-.vitepress/cache
+src/.vitepress/dist
+src/.vitepress/cache
+.vitepress
