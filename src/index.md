@@ -7,7 +7,7 @@ hero:
   text: "Standard"
   tagline: Bringing Option Contracts OnChain
   image:
-    src: /public/HeroDesign2.1.png
+    src: /HeroDesign3.1.png
     alt: ""
   actions:
     - theme: brand
