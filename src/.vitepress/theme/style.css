@@ -84,7 +84,7 @@
 
 :root {
   --vp-button-brand-border: transparent;
-  --vp-button-brand-text: var(--vp-c-white);
+  --vp-button-brand-text: #ffffff;
   --vp-button-brand-bg: #000000; /* Black background */
   --vp-button-brand-hover-border: transparent;
   --vp-button-brand-hover-text: #000000; /* Hover text color */
