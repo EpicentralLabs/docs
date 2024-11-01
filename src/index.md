@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Solana Options"
   text: "Standard"
-  tagline: Bringing Option Contracts OnChain
+  tagline: Bringing Option Contracts On-Chain
   image:
     src: /HeroDesign3.1.png
     alt: ""
