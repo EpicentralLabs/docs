@@ -55,14 +55,14 @@
   --vp-c-default-soft: var(--vp-c-gray-soft);
 
   --vp-c-brand-1: #00d68b;
-  --vp-c-brand-2: #81bcff;
-  --vp-c-brand-3: #81bcff;
-  --vp-c-brand-soft: #aed4ff;
+  --vp-c-brand-2: #64acff;
+  --vp-c-brand-3: #64acff;
+  --vp-c-brand-soft: #64acff;
 
-  --vp-c-tip-1: #aed4ff;
-  --vp-c-tip-2: #aed4ff;
-  --vp-c-tip-3: #aed4ff;
-  --vp-c-tip-soft: #a4b9d1;
+  --vp-c-tip-1: #1a2b3e;
+  --vp-c-tip-2: #25364a;
+  --vp-c-tip-3: #6c93bf;
+  --vp-c-tip-soft: #64acff;
 
   --vp-c-warning-1: var(--vp-c-yellow-1);
   --vp-c-warning-2: var(--vp-c-yellow-2);
