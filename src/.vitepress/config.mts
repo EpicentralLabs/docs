@@ -29,9 +29,9 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: 'What are Options?', link: '/introduction/about' },
-          { text: 'Solana Options Standard', link: '/introduction/options-standard' },
+          { text: 'Solana Options Standard', link: '/introduction/options-standard' }
         ]
-      }
+      },
       //{
       //text: 'For Developers',
       //collapsed: false,
@@ -41,6 +41,13 @@ export default defineConfig({
         //{ text: 'Calculating Volatility', link: '/getting-started/calculating-volatility' },
         //]
       //}
+      {
+        text: 'Epicentral Labs',
+        collapsed: true,
+        items: [
+          { text: 'About', link: '/epicentral-labs/about' }
+        ]
+      }
     ],
 
     socialLinks: [

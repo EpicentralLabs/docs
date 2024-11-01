@@ -1,7 +1,7 @@
 # The Solana Options Standard (SOS)
 
 ::: tip Solana Options Standard (SOS)...
-is an open source [Solana Program(s)](https://solana.com/docs/core/programs) SDK created by **Epicentral Labs**. The Options Standard allows for a "standardized" way to create **Option Contracts** on Solana, making it easier than ever to generate, calculate, and integrate options on-chain.
+is an open source [Solana Program(s)](https://solana.com/docs/core/programs) SDK created by **Epicentral Labs**. Allowing for a "standardized" way to create **Option Contracts** on Solana, making it easier than ever to generate, calculate, and integrate Options on-chain.
 :::
 
 ## The Problem
