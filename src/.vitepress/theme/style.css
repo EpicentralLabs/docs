@@ -54,7 +54,7 @@
   --vp-c-default-3: var(--vp-c-gray-3);
   --vp-c-default-soft: var(--vp-c-gray-soft);
 
-  --vp-c-brand-1: #00d68b;
+  --vp-c-brand-1: #64acff;
   --vp-c-brand-2: #64acff;
   --vp-c-brand-3: #64acff;
   --vp-c-brand-soft: #64acff;
@@ -88,7 +88,7 @@
   --vp-button-brand-bg: #000000; /* Black background */
   --vp-button-brand-hover-border: transparent;
   --vp-button-brand-hover-text: #000000; /* Hover text color */
-  --vp-button-brand-hover-bg: #00FFA3; /* Hover background color */
+  --vp-button-brand-hover-bg: #64acff; /* Hover background color */
   --vp-button-brand-active-border: transparent;
   --vp-button-brand-active-text: var(--vp-c-white);
   --vp-button-brand-active-bg: var(--vp-c-brand-1);
