@@ -32,6 +32,14 @@ export default defineConfig({
           { text: 'Solana Options Standard', link: '/introduction/options-standard' }
         ]
       },
+      {
+        text: 'Quick Start Options',
+        collapsed: false,
+        items: [
+          { text: 'Calls & Puts', link: '/quickstart-options/calls-and-puts'},
+          { text: 'Option Greeks', link: '/quickstart-options/the-greeks'}
+        ]
+      },
       //{
       //text: 'For Developers',
       //collapsed: false,

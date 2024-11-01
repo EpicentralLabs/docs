@@ -1,6 +1,6 @@
 # What are Options?
 
-::: tip Option Contracts...
+::: tip Option Contracts
 are **financial derivatives** of an underlying asset or token. They represent an agreement between a **buyer** and a **seller** for a potential future transaction at a predetermined price, known as the **Strike** price.
 :::
 ## How are Options Used?
