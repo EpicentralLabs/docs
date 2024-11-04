@@ -28,16 +28,17 @@ export default defineConfig({
         text: 'An Introduction',
         collapsed: false,
         items: [
-          { text: 'What are Options?', link: '/introduction/about' },
+          { text: 'What are Options?', link: '/introduction/what-are-options' },
           { text: 'Solana Options Standard', link: '/introduction/options-standard' }
         ]
       },
       {
-        text: 'Quick Start Options',
+        text: 'Options: Basics',
         collapsed: false,
         items: [
-          { text: 'Calls & Puts', link: '/quickstart-options/calls-and-puts'},
-          { text: 'Option Greeks', link: '/quickstart-options/the-greeks'}
+          { text: 'Options: Basics - Introduction', link: '/options-basics/intro'},
+          { text: 'Options: Basics - Calls & Puts', link: '/options-basics/calls-and-puts'},
+          { text: 'Options: Basics - Greeks', link: '/options-basics/the-greeks'}
         ]
       },
       //{
