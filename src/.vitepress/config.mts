@@ -25,10 +25,7 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'An Introduction',
-        collapsed: false,
         items: [
-          { text: 'What are Options?', link: '/introduction/what-are-options' },
           { text: 'Solana Options Standard', link: '/introduction/options-standard' }
         ]
       },
