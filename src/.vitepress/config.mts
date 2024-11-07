@@ -33,7 +33,7 @@ export default defineConfig({
       },
       {
         text: 'Options: Basics',
-        collapsed: false,
+        collapsed: true,
         items: [
           { text: 'Options: Basics - Introduction', link: '/options-basics/intro'},
           { text: 'Options: Basics - Calls & Puts', link: '/options-basics/calls-and-puts'},
@@ -42,7 +42,7 @@ export default defineConfig({
       },
       //{
       //text: 'For Developers',
-      //collapsed: false,
+      //collapsed: true,
       //items: [
         //{ text: 'Getting Started', link: '/getting-started/setup' },
         //{ text: 'Create an Option', link: '/getting-started/create-an-option' },
