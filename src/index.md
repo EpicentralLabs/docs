@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: Learn More
-      link: /introduction/what-are-options
+      link: /introduction/options-standard
     - theme: alt
       text: Discord
       link: https://discord.gg/5asAuY2sR8
