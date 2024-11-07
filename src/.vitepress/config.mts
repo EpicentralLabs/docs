@@ -27,7 +27,8 @@ export default defineConfig({
       {
         text: 'Solana Options Standard',
         items: [
-          { text: 'Options on Solana', link: '/introduction/options-standard' }
+          { text: 'Options on Solana', link: '/introduction/options-standard' },
+          { text: 'The Derivative Standard', link: '/introduction/the-derivative-standard' }
         ]
       },
       {
