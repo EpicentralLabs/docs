@@ -25,8 +25,9 @@ export default defineConfig({
 
     sidebar: [
       {
+        text: 'Solana Options Standard',
         items: [
-          { text: 'Solana Options Standard', link: '/introduction/options-standard' }
+          { text: 'Options on Solana', link: '/introduction/options-standard' }
         ]
       },
       {
