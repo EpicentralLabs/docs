@@ -25,13 +25,15 @@ export default defineConfig({
 
     sidebar: [
       {
+        text: 'Solana Options Standard',
         items: [
-          { text: 'Solana Options Standard', link: '/introduction/options-standard' }
+          { text: 'Options on Solana', link: '/introduction/options-on-solana' },
+          { text: 'The Option Standard SDK', link: '/introduction/the-option-standard' }
         ]
       },
       {
         text: 'Options: Basics',
-        collapsed: false,
+        collapsed: true,
         items: [
           { text: 'Options: Basics - Introduction', link: '/options-basics/intro'},
           { text: 'Options: Basics - Calls & Puts', link: '/options-basics/calls-and-puts'},
@@ -40,7 +42,7 @@ export default defineConfig({
       },
       //{
       //text: 'For Developers',
-      //collapsed: false,
+      //collapsed: true,
       //items: [
         //{ text: 'Getting Started', link: '/getting-started/setup' },
         //{ text: 'Create an Option', link: '/getting-started/create-an-option' },
