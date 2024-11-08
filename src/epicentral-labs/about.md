@@ -1,6 +1,6 @@
 # Epicentral Labs
 
-**Epicentral Labs** is a **development studio** with its core team spread across the US & Canada, along with global outside collaborators and contributors. 
+**Epicentral Labs** is a **development studio** with its Core Team spread across the US & Canada, along with global outside collaborators and contributors. 
 
 >Our focus is on the [**Solana Blockchain**](https://solana.com/), utilizing its fast network and low-cost transactions to develop solutions for Solana while also aligning with [Our Missions](/epicentral-labs/about#our-missions)
 
