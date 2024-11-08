@@ -9,8 +9,7 @@ PLACEHOLDER
 Those individual investors and financial institutions are limited by various rules set by different exchanges, clearing firms, and government regulators -- which is about as centralized as you can get when it comes to finance -- and that isn't entirely a bad thing either since it promotes safety and fairness *(not that it is or isn't)*.
 
 >What if there was a way to promote **safety** as well as **fairness** thanks to Solana's infrustructure?
-
-There is! So, let's break it down:
+>>There is! So, let's break it down:
 
 ## Solana Options Standard (SOS)
 

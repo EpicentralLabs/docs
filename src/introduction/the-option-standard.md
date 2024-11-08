@@ -4,9 +4,9 @@ As mentioned, the **Solana Option Standard (SOS)** is an open source software/pr
 
 ## Option Programs
 
-Starting at the heart of the SDK are the **Option Programs**. These [Solana Programs](https://solana.com/docs/core/programs) are the key on-chain programs that verify option contract data for when/how an option is created, executed, assigned, exercised, etc. on-chain. It is important to note that **Option Programs are PDAs**.
+>Starting at the heart of the SDK are the **Option Programs**. These [Solana Programs](https://solana.com/docs/core/programs) are the key on-chain programs that verify option contract data for when/how an option is created, executed, assigned, exercised, etc. on-chain. It is important to note that **Option Programs are PDAs**.
 
->Option Programs consists of [Program Derived Addresses (PDAs)](https://solana.com/docs/core/pda) in order to safely and effectively execute option-related transactions and instructions on Solana. 
+>>Option Programs consists of [Program Derived Addresses (PDAs)](https://solana.com/docs/core/pda) in order to safely and effectively execute option-related transactions and instructions on Solana. 
 
 ## Create Option Contracts
 
