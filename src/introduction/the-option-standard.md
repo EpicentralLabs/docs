@@ -1,6 +1,6 @@
 # The Option Standard SDK
 
-As mentioned, the **Solana Option Standard (SOS)** is an open source software/program development kit (SDK). Inside of the SDK, there are a few things that will be built and optimized over a course of time. More detailed documentation of the list below will be provided in the near future in the [**Integrating SOS**]() section.
+As mentioned, the **Solana Option Standard (SOS)** is an open source software/program development kit (SDK). Inside of the SDK, there are a few things that will be built and optimized over a course of time. More detailed documentation of the list below will be provided in the near future in the [**Integrating SOS**](/getting-started/setup) section.
 
 ## Option Programs
 
