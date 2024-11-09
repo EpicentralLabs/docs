@@ -49,6 +49,23 @@ export default defineConfig({
                   { text: 'Assign Option', link: '/introduction/the-option-standard/#assign-option' },
                   { text: 'Execute Option', link: '/introduction/the-option-standard/#execute-option' }
                 ]
+              },
+              { text: 'Calculation Modules', 
+                link: '/introduction/the-option-standard/#calculation-modules',
+                collapsed: false,
+                items: [
+                  { text: 'Option Greeks', 
+                    link: '/introduction/the-option-standard/#option-greeks',
+                    collapsed: true,
+                    items: [
+                      { text: 'calc_delta', link: '/introduction/the-option-standard/#calc_delta' },
+                      { text: 'calc_gamma', link: '/introduction/the-option-standard/#calc_gamma' },
+                      { text: 'calc_theta', link: '/introduction/the-option-standard/#calc_theta' },
+                      { text: 'calc_vega', link: '/introduction/the-option-standard/#calc_vega' },
+                      { text: 'calc_rho', link: '/introduction/the-option-standard/#calc_rho' }
+                    ]
+                  }
+                ]
               }
             ]
           }

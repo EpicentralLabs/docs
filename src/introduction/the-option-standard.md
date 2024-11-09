@@ -2,7 +2,7 @@
 
 As mentioned, the **Solana Option Standard (SOS)** is an open source software/program development kit (SDK). Inside of the SDK, there are a few things that will be built and optimized over a course of time. More detailed documentation of the list below will be provided in the near future in the [**Integrating SOS**](/getting-started/setup) section.
 
-## `Option Programs`
+## Option Programs
 
 >Starting at the heart of the SDK are the **Option Programs**. These [Solana Programs](https://solana.com/docs/core/programs) are the key on-chain programs that verify option contract data for when/how an option is created, executed, assigned, exercised, etc. on-chain. It is important to note that **Option Programs are PDAs**.
 
@@ -29,3 +29,32 @@ As mentioned, the **Solana Option Standard (SOS)** is an open source software/pr
 >>In order for this to work effectively, it is recommended to utilize the `option_execution_program` on limit orders only.
 
 >>>*If wanting to initialize market orders, then treat as the next best limit order price for execution when sending instructions through frontend UI.*
+
+## Calculation Modules
+
+>To calculate the price of an option contract, certain parameters need to be created to ease development. The following are reausable modules that can easily be imported and used to construct custom exotic options. 
+
+>> These modules are used across the entirety of the SOS SDK, including the [Option Programs](/introduction/the-option-standard/#option-programs).
+### `Option Greeks`
+
+>If you are unfamiliar with the greeks, check out [Options: Basics - Greeks](/options-basics/the-greeks).
+
+##### `calc_delta`
+
+>Calculates the change in value of an option on a $1 move in the underlying token/asset. 
+
+##### `calc_gamma`
+
+>Calculates the rate of change in the `Delta` of an option.
+
+##### `calc_theta`
+
+>Calculates the `Time Decay` of an option.
+
+##### `calc_vega`
+
+>Calculates the change in value of an option on a 1% move in `Implied Volatility`.
+
+##### `calc_rho`
+
+>Calculates the change in value of an option based on changes in the `risk free rate`. 
