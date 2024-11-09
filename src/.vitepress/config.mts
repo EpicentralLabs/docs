@@ -20,7 +20,13 @@ export default defineConfig({
       copyright: 'Copyright © 2024 Epicentral Labs'
     },
     nav: [
-      { text: 'Home', link: '/' }
+      { text: 'Home', link: '/' },
+      {
+        text: 'Options Standard SDK',
+        items: [
+          { text: 'Option Programs', link: '/introduction/the-option-standard/#option-programs' }
+        ]
+      }
     ],
 
     sidebar: [
@@ -28,7 +34,24 @@ export default defineConfig({
         text: 'Solana Options Standard',
         items: [
           { text: 'Options on Solana', link: '/introduction/options-on-solana' },
-          { text: 'The Option Standard SDK', link: '/introduction/the-option-standard' }
+          {
+            text: 'The Option Standard SDK',
+            link: '/introduction/the-option-standard',
+            collapsed: true,
+            items: [
+              {
+                text: 'Option Programs',
+                link: '/introduction/the-option-standard/#option-programs',
+                collapsed: false,
+                items: [
+                  { text: 'Create Option', link: '/introduction/the-option-standard/#create-option' },
+                  { text: 'Exercise Option', link: '/introduction/the-option-standard/#execise-option' },
+                  { text: 'Assign Option', link: '/introduction/the-option-standard/#assign-option' },
+                  { text: 'Execute Option', link: '/introduction/the-option-standard/#execute-option' }
+                ]
+              }
+            ]
+          }
         ]
       },
       {
