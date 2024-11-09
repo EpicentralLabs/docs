@@ -37,22 +37,22 @@ export default defineConfig({
           {
             text: 'The Option Standard SDK',
             link: '/introduction/the-option-standard',
-            collapsed: true,
+            collapsed: false,
             items: [
               {
                 text: 'Option Programs',
                 link: '/introduction/the-option-standard/#option-programs',
-                collapsed: false,
+                collapsed: true,
                 items: [
-                  { text: 'Create Option', link: '/introduction/the-option-standard/#create-option' },
-                  { text: 'Exercise Option', link: '/introduction/the-option-standard/#execise-option' },
-                  { text: 'Assign Option', link: '/introduction/the-option-standard/#assign-option' },
-                  { text: 'Execute Option', link: '/introduction/the-option-standard/#execute-option' }
+                  { text: 'option_create', link: '/introduction/the-option-standard/#option_create' },
+                  { text: 'option_exercise', link: '/introduction/the-option-standard/#option_exercise' },
+                  { text: 'option_assign', link: '/introduction/the-option-standard/#option_assign' },
+                  { text: 'option_execute', link: '/introduction/the-option-standard/#option_execute' }
                 ]
               },
               { text: 'Calculation Modules', 
                 link: '/introduction/the-option-standard/#calculation-modules',
-                collapsed: false,
+                collapsed: true,
                 items: [
                   { text: 'Option Greeks', 
                     link: '/introduction/the-option-standard/#option-greeks',
@@ -63,6 +63,12 @@ export default defineConfig({
                       { text: 'calc_theta', link: '/introduction/the-option-standard/#calc_theta' },
                       { text: 'calc_vega', link: '/introduction/the-option-standard/#calc_vega' },
                       { text: 'calc_rho', link: '/introduction/the-option-standard/#calc_rho' }
+                    ]
+                  },
+                  { text: 'Implied Volatility (IV)', link: '/introduction/the-option-standard/#implied-volatility-iv',
+                    collapsed: true,
+                    items: [
+                      { text: 'impl_vol', link: '/introduction/the-option-standard/#impl_vol' }
                     ]
                   }
                 ]
