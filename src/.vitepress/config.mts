@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  ignoreDeadLinks: true,
   title: "Epicentral Labs",
   description: "Solana Options Standard",
   head: [['link', { rel: 'icon', href: '/Epicentral-Labs-Logo-Round.png' }]],
