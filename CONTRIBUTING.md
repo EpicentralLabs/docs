@@ -1,6 +1,6 @@
-# Contributing to The Token Lab
+# Contributing to the Option Standard SDK Documentation Site
 
-We appreciate your interest in contributing to The Token Lab! This document outlines the process for contributing to this project and helps maintain a consistent workflow for all contributors.
+We appreciate your interest in contributing to **SOS Docs** site! This document outlines the process for contributing to this project and helps maintain a consistent workflow for all contributors.
 
 ## Branching Strategy
 
@@ -50,6 +50,14 @@ When contributing, consider how your changes might affect the project's version 
 3. Reference any related issues in your pull request description!
 4. Be prepared to make changes based on code review feedback.
 5. **Please ensure that someone REVIEWS THE CODE PRIOR TO MERGING**. This is to ensure a "Maker" / "Checker" system.
+6. Ensure to add the appropriate "label" to the PR after creating the request.
+7. Be sure to associate the PR to a particular organization "project" as well.
+
+## Code Reviewers
+
+1. If you are reviewing Pull Requests, be sure to add a comment on whether or not a PR was approved. If something wasn't approved, add a comment to the appropriate file or line of code and explain what the reason for denial is. 
+2. On the other hand if the PR was approved and have no comments, simply provide `"Approved"` to the Request Review before submitting your approval. 
+3. Please Merge if all checks are clear. Thank you!
 
 ## Code Style
 

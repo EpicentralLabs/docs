@@ -41,6 +41,7 @@ At **Epicentral Labs**, our strength lies in our diverse and talented team membe
   />
 
 </div>
+
 ## Verified Contributors
 
 >We're grateful to our contributors who help make Epicentral Labs better every day. If you're interested in contributing to our projects, check out our [GitHub](https://github.com/EpicentralLabs) or join our [Discord](https://discord.gg/5asAuY2sR8). 

@@ -6,6 +6,7 @@ export default defineConfig({
   title: "Epicentral Labs",
   description: "Solana Options Standard",
   head: [['link', { rel: 'icon', href: '/Epicentral-Labs-Logo-Round.png' }]],
+  cleanUrls: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/Epicentral-Labs-Logo-Round.png',
