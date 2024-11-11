@@ -50,4 +50,4 @@ At **Epicentral Labs**, our strength lies in our diverse and talented team membe
 - [Kipp-ops](https://github.com/Kippy-ops)
 - [subwfr](https://github.com/subwfr)
 - [ElectroSpark115](https://github.com/ElectroSpark115)
-- [Garrenspc69]
+- [Garrenspc69](https://github.com/Garrenspc69)
