@@ -23,18 +23,26 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       {
-        text: 'Solana Options Standard SDK',
+        text: 'Options Standard SDK',
         items: [
           { text: 'Introduction', link: '/option-standard-sdk/introduction' },
           { text: 'Option Programs', link: '/option-standard-sdk/option-programs' },
           { text: 'Calculation Modules', link: '/option-standard-sdk/calculation-modules' }
         ]
-      }
+      },
+      { 
+        text: 'Courses', 
+        items: [
+          { text: 'Options: Basics', link: '/options-basics/intro' }
+        ]
+      },
+      { text: 'About Us', link: '/epicentral-labs/about' },
+      { text: 'Team', link: '/epicentral-labs/team' }
     ],
 
     sidebar: [
       {
-        text: 'Solana Options Standard SDK',
+        text: 'Options Standard SDK',
         collapsed: false,
         items: [
           { text: 'Introduction', link: '/option-standard-sdk/introduction' },
@@ -64,7 +72,8 @@ export default defineConfig({
         text: 'Epicentral Labs',
         collapsed: true,
         items: [
-          { text: 'About', link: '/epicentral-labs/about' }
+          { text: 'About Us', link: '/epicentral-labs/about' },
+          { text: 'Team', link: '/epicentral-labs/team' }
         ]
       }
     ],
