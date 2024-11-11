@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: Start Here
-      link: /introduction/options-on-solana
+      link: /option-standard-sdk/introduction
     - theme: alt
       text: Discord
       link: https://discord.gg/5asAuY2sR8
