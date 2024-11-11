@@ -36,8 +36,7 @@ export default defineConfig({
           { text: 'Options: Basics', link: '/options-basics/intro' }
         ]
       },
-      { text: 'About Us', link: '/epicentral-labs/about' },
-      { text: 'Team', link: '/epicentral-labs/team' }
+      { text: 'About Us', link: '/epicentral-labs/about' }
     ],
 
     sidebar: [
