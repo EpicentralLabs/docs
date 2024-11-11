@@ -30,13 +30,24 @@ At **Epicentral Labs**, our strength lies in our diverse and talented team membe
 
 </div>
 
+<div class="team-grid">
+  <TeamMember
+    name="ZeroSums"
+    role="Co-Lead Developer"
+    bio=""
+    image="/team/ZeroSumsPFP.jpg"
+    github="https://github.com/ZeroSums"
+    twitter=""
+  />
+
+</div>
 ## Verified Contributors
 
 >We're grateful to our contributors who help make Epicentral Labs better every day. If you're interested in contributing to our projects, check out our [GitHub](https://github.com/EpicentralLabs) or join our [Discord](https://discord.gg/5asAuY2sR8). 
 
 ### A special thank you to:
 
-- [ZeroSums](https://github.com/ZeroSums)
 - [Kipp-ops](https://github.com/Kippy-ops)
 - [subwfr](https://github.com/subwfr)
 - [ElectroSpark115](https://github.com/ElectroSpark115)
+- [Garrenspc69]
