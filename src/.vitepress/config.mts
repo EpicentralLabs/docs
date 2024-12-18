@@ -52,13 +52,14 @@ export default defineConfig({
       },
       {
         text: 'Options: Basics',
-        collapsed: true,
+        collapsed: false,
         items: [
           { text: 'Options: Basics - Introduction', link: '/options-basics/intro' },
           { text: 'Options: Basics - Calls & Puts', link: '/options-basics/calls-and-puts' },
           { text: 'Options: Basics - Greeks', link: '/options-basics/the-greeks' }
         ]
       },
+    
       //{
       //  text: 'For Developers',
       //  collapsed: true,
@@ -67,18 +68,9 @@ export default defineConfig({
       //    { text: 'Create an Option', link: '/getting-started/create-an-option' },
       //    { text: 'Calculating Volatility', link: '/getting-started/calculating-volatility' }
       //  ]
-      //},
-      {
-        text: 'Epicentral Labs',
-        collapsed: true,
-        items: [
-          { text: 'About Us', link: '/epicentral-labs/about' },
-          { text: 'Team', link: '/epicentral-labs/team' }
-        ]
-      }
+      //}
     ],
-
-    socialLinks: [
+    socialLinks:[
       { icon: 'twitter', link: 'https://x.com/EpicentralLabs' },
       { icon: 'discord', link: 'https://discord.gg/5asAuY2sR8' },
       { icon: 'github', link: 'https://github.com/EpicentralLabs' }
