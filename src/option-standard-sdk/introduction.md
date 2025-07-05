@@ -4,7 +4,7 @@ Decentralized Finance (DeFi) on Solana has been expanding rapidly each year sinc
 
 >Just like the [Stock Market](https://www.investopedia.com/terms/s/stockmarket.asp), Option Contracts (similar to FX Structures) can provide exceptional diversity to an investors portfolio or day-to-day positions in the crypto space as well. 
 
->>*Learn more about Options via our short guide: [Options: Basics](/options-basics/intro)!*
+>>*Learn more about Options via our short guide: [Options - For Starters](/options-for-starters/intro)!*
 
 ## Decentralized Options
 
@@ -42,9 +42,9 @@ The [Solana Ecosystem](https://solana.com/) contains a variety of different dece
 
 ## The Solution
 
-The Option Standard will help fix most of these of these issues. With the sole purpose for developers to be able to utilize the **Solana Option Standard SDK** and implement potential solutions into their projects or platforms.
+The Solana Options Standard will help fix most of these issues, with the sole purpose of allowing developers to utilize the **Solana Options Standard SDK** and implement potential solutions within their projects or platforms.
 
->The purpose of **SOS** is to create a more hassle-free and less time-consuming way to create Option Contracts (and even Option Chains) on Solana. This standard brings in the most important financial derivative into the spotlight which lacks significantly on Solana. We can dive a bit deeper into what **Options Standard SDK** looks to solve in [The Option Standard](/option-standard-sdk/introduction) page!
+>The purpose of **SOS** is to create a more hassle-free and less time-consuming way to create Option Contracts (and even Option Chains) on Solana. This standard brings the most important financial derivative into the spotlight, which is significantly lacking on Solana. We can dive a bit deeper into what **Options Standard SDK** looks to solve in [The Solana Options Standard](/option-standard-sdk/introduction) page!
 
 ## Expanding DeFi
 

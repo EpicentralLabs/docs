@@ -1,6 +1,6 @@
-# Options: Basics - Introduction
+# Learning the Foundation
 
-<span style="color: #64acff">**Options: Basics**</span> is a short guide which you can learn from on how Options work and why they might be used. Epicentral Labs will have an advanced course discussing deeper material and potential trading strategies later down the road. For now though, let's start here:
+<span style="color: #64acff">**Options - For Starters**</span> is a concise guide that explains how options work and why they are used. Epicentral Labs will have an advanced course discussing deeper material and potential trading strategies later down the road. For now, though, let's start here:
 
 ## Prerequisites
 

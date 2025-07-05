@@ -6,4 +6,4 @@ src/.vitepress/dist
 src/.vitepress/cache
 
 # Vitepress cache
-.vitepress/cache/deps
+src/.vitepress/cache/deps
