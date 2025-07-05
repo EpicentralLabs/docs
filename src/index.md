@@ -7,7 +7,7 @@ hero:
   text: "Documentation"
   tagline: Bringing Option Contracts On-Chain
   image:
-    src: /HeroDesign3.1.png
+    src: /Epicentral-Labs-Logo-Round.png
     alt: ""
   actions:
     - theme: brand

@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   ignoreDeadLinks: true,
-  title: "Epicentral Labs | Documentation",
+  title: "Epicentral Labs | Docs",
   description: "Epicentral Labs Documentation Pages.",
   head: [['link', { rel: 'icon', href: '/Epicentral-Labs-Logo-Round.png' }]],
   cleanUrls: true,
@@ -24,10 +24,9 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       {
-        text: 'Options Standard SDK',
+        text: 'Solana Options Standard SDK',
         items: [
-          { text: 'Introduction', link: '/option-standard-sdk/introduction' },
-          { text: 'Calculation Modules', link: '/option-standard-sdk/calculation-modules' }
+          { text: 'Introduction', link: '/option-standard-sdk/introduction' }
         ]
       },
       { 
@@ -40,11 +39,10 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Options Standard SDK',
+        text: 'Solana Options Standard SDK',
         collapsed: true,
         items: [
-          { text: 'Introduction', link: '/option-standard-sdk/introduction' },
-          { text: 'Calculation Modules', link: '/option-standard-sdk/calculation-modules' }
+          { text: 'Introduction', link: '/option-standard-sdk/introduction' }
         ]
       },
       {
@@ -55,7 +53,7 @@ export default defineConfig({
             text: 'Options - For Starters',
             collapsed: true,
             items: [
-              { text: '1) - Learning the Foundation', link: '/options-for-starters/intro' },
+              { text: '1) - The Foundation', link: '/options-for-starters/intro' },
               { text: '2) - Calls & Puts', link: '/options-for-starters/calls-and-puts' },
               { text: '3) - Greeks', link: '/options-for-starters/the-greeks' }
             ]

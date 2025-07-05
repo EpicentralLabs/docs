@@ -1,4 +1,4 @@
-# Options: Basics - Option Greeks
+# Options For Starters - Greeks
 
 **"Greeks"** are the important parameters that help calculate the price of an Option contract. As you can see below, it can appear overwhelming when it comes to determining which greek is more important, and how to use them. In this **Options: Basics** guide, we will only cover definitions and showcase some examples.
 

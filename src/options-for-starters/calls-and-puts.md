@@ -1,4 +1,4 @@
-# Options: Basics - Calls & Puts
+# Options For Starters - Calls & Puts
 
 This page will cover the basic foundation of **Call Options** and **Put Options**, how they work, and whether or not going **Long** or **Short** would be beneficial to a traders position.
 
