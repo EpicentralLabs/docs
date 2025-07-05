@@ -1,4 +1,4 @@
-# docs-optionstandard
-Documentation for Solana Options Standard (Site)
+# Epicentral Labs Documentation Pages
+Documentation for all Epicentral Labs products, softwares, and services.
 
-This is the open source website that explains what the **Solana Options Standard** is and general information about **Epicentral Labs**. If you are looking to help, anyone is able to [contribute](https://github.com/EpicentralLabs/docs-optionstandard/blob/master/CONTRIBUTING.md) to this repository!
+If you are looking to help, anyone is able to [contribute](https://github.com/EpicentralLabs/docs-optionstandard/blob/master/CONTRIBUTING.md) to this repository!
