@@ -42,7 +42,7 @@ The [Solana Ecosystem](https://solana.com/) contains a variety of different dece
 
 ## The Solution
 
-The Solana Options Standard will help fix most of these of these issues. With the sole purpose for developers to be able to utilize the **Solana Option Standard SDK** and implement potential solutions into their projects or platforms.
+The Solana Options Standard will help fix most of these issues. With the sole purpose of allowing developers to utilize the **Solana Options Standard SDK** and implement potential solutions into their projects or platforms.
 
 >The purpose of **SOS** is to create a more hassle-free and less time-consuming way to create Option Contracts (and even Option Chains) on Solana. This standard brings in the most important financial derivative into the spotlight which lacks significantly on Solana. We can dive a bit deeper into what **Options Standard SDK** looks to solve in [The Solana Options Standard](/option-standard-sdk/introduction) page!
 
