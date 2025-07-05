@@ -8,7 +8,7 @@ hero:
   tagline: Bringing Option Contracts On-Chain
   image:
     src: /Epicentral-Labs-Logo-Round.png
-    alt: ""
+    alt: "Epicentral Labs logo"
   actions:
     - theme: brand
       text: Start Here
