@@ -1,4 +1,26 @@
 {
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "Documentation for Epicentral Labs",
+  "author": "Epicentral Labs, DAO LLC",
+  "license": "AGPL-3.0",
+  "homepage": "https://docs.epicentrallabs.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/epicentrallabs/docs.git"
+  },
+  "keywords": [
+    "documentation",
+    "epicentrallabs",
+    "epicentral",
+    "optionstandard",
+    "option",
+    "options",
+    "standard",
+    "docs",
+    "opx",
+    "defi"
+  ],
   "scripts": {
     "dev": "vitepress dev src",
     "build": "vitepress build src",
