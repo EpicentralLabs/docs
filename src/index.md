@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "Solana Options"
-  text: "Standard"
+  name: "Epicentral Labs"
+  text: "Documentation"
   tagline: Bringing Option Contracts On-Chain
   image:
     src: /HeroDesign3.1.png

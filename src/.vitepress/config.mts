@@ -3,8 +3,8 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   ignoreDeadLinks: true,
-  title: "Epicentral Labs",
-  description: "Solana Options Standard",
+  title: "Epicentral Labs | Documentation",
+  description: "Epicentral Labs Documentation Pages.",
   head: [['link', { rel: 'icon', href: '/Epicentral-Labs-Logo-Round.png' }]],
   cleanUrls: true,
   themeConfig: {
@@ -18,8 +18,8 @@ export default defineConfig({
       }
     },
     footer: {
-      message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2024 Epicentral Labs'
+      message: 'Released under the AGPL-3.0 License.',
+      copyright: 'Copyright © 2025 Epicentral Labs, DAO LLC'
     },
     nav: [
       { text: 'Home', link: '/' },
@@ -27,48 +27,51 @@ export default defineConfig({
         text: 'Options Standard SDK',
         items: [
           { text: 'Introduction', link: '/option-standard-sdk/introduction' },
-          { text: 'Option Programs', link: '/option-standard-sdk/option-programs' },
           { text: 'Calculation Modules', link: '/option-standard-sdk/calculation-modules' }
         ]
       },
       { 
-        text: 'Courses', 
+        text: 'Guides', 
         items: [
-          { text: 'Options: Basics', link: '/options-basics/intro' }
+          { text: 'Options - For Starters', link: '/options-basics/intro' }
         ]
-      },
-      { text: 'About Us', link: '/epicentral-labs/about' }
+      }
     ],
 
     sidebar: [
       {
         text: 'Options Standard SDK',
-        collapsed: false,
+        collapsed: true,
         items: [
           { text: 'Introduction', link: '/option-standard-sdk/introduction' },
-          { text: 'Option Programs', link: '/option-standard-sdk/option-programs' },
           { text: 'Calculation Modules', link: '/option-standard-sdk/calculation-modules' }
         ]
       },
       {
-        text: 'Options: Basics',
-        collapsed: false,
+        text: 'Guides',
+        collapsed: true,
         items: [
-          { text: 'Options: Basics - Introduction', link: '/options-basics/intro' },
-          { text: 'Options: Basics - Calls & Puts', link: '/options-basics/calls-and-puts' },
-          { text: 'Options: Basics - Greeks', link: '/options-basics/the-greeks' }
+          {
+            text: 'Options - For Starters',
+            collapsed: true,
+            items: [
+              { text: '1) - Learning the Foundation', link: '/options-basics/intro' },
+              { text: '2) - Calls & Puts', link: '/options-basics/calls-and-puts' },
+              { text: '3) - Greeks', link: '/options-basics/the-greeks' }
+            ]
+          }
         ]
       },
     
-      //{
-      //  text: 'For Developers',
-      //  collapsed: true,
-      //  items: [
-      //    { text: 'Getting Started', link: '/getting-started/setup' },
-      //    { text: 'Create an Option', link: '/getting-started/create-an-option' },
-      //    { text: 'Calculating Volatility', link: '/getting-started/calculating-volatility' }
-      //  ]
-      //}
+      {
+        text: 'For Developers',
+        collapsed: true,
+        items: [
+          { text: 'Getting Started', link: '/getting-started/setup' },
+        { text: 'Create an Option', link: '/getting-started/create-an-option' },
+        { text: 'Calculating Volatility', link: '/getting-started/calculating-volatility' }
+      ]
+      }
     ],
     socialLinks:[
       { icon: 'twitter', link: 'https://x.com/EpicentralLabs' },
