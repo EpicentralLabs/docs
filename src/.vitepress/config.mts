@@ -33,7 +33,7 @@ export default defineConfig({
       { 
         text: 'Guides', 
         items: [
-          { text: 'Options - For Starters', link: '/options-basics/intro' }
+          { text: 'Options - For Starters', link: '/options-for-starters/intro' }
         ]
       }
     ],
@@ -55,9 +55,9 @@ export default defineConfig({
             text: 'Options - For Starters',
             collapsed: true,
             items: [
-              { text: '1) - Learning the Foundation', link: '/options-basics/intro' },
-              { text: '2) - Calls & Puts', link: '/options-basics/calls-and-puts' },
-              { text: '3) - Greeks', link: '/options-basics/the-greeks' }
+              { text: '1) - Learning the Foundation', link: '/options-for-starters/intro' },
+              { text: '2) - Calls & Puts', link: '/options-for-starters/calls-and-puts' },
+              { text: '3) - Greeks', link: '/options-for-starters/the-greeks' }
             ]
           }
         ]

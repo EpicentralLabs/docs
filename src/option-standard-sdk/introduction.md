@@ -4,7 +4,7 @@ Decentralized Finance (DeFi) on Solana has been expanding rapidly each year sinc
 
 >Just like the [Stock Market](https://www.investopedia.com/terms/s/stockmarket.asp), Option Contracts (similar to FX Structures) can provide exceptional diversity to an investors portfolio or day-to-day positions in the crypto space as well. 
 
->>*Learn more about Options via our short guide: [Options: Basics](/options-basics/intro)!*
+>>*Learn more about Options via our short guide: [Options - For Starters](/options-basics/intro)!*
 
 ## Decentralized Options
 
