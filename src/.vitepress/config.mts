@@ -39,6 +39,15 @@ export default defineConfig({
 
     sidebar: [
       {
+        text: 'Products',
+        collapsed: true,
+        items: [
+          { text: 'OPX', link: '/products/opx' },
+          { text: 'OMLP', link: '/products/omlp' },
+        ]
+      },
+
+      {
         text: 'Solana Options Standard SDK',
         collapsed: true,
         items: [
