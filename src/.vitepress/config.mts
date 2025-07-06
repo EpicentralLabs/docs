@@ -55,7 +55,7 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: 'Introduction', link: '/option-standard-sdk/introduction' },
-            { text: 'Options Pricing Model (OPM)', link: '/option-standard-sdk/opm.md' },
+                  
         ]
       },
       
