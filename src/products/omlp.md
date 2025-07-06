@@ -1,47 +1,41 @@
 # Options Margin Lending Pool (OMLP)
----
-### Traditional Options Markets Structures 101
-Before diving into the OMLP (*pun intended*) we must first understand how options contracts are structured within the options market.
+Our OMLPs are single-asset pools (SAPs) that allow users (like market makers/short sellers) to borrow funds from liquidity providers in order to cover their positions. 
 
-Like a product in any other market, options contracts can either be bought or sold.  Traders choose which options to buy or sell based on the various [factors](https://gist.github.com/CyberStaker/5d9c937c23a7d9297e572e4de0ca3ee5) that impacts its value.  Each option is designed with a belief that the underlying asset's price will either increase, or decrease, at an agreed upon date.
+Before diving into the OMLP (*pun intended*) we must first understand how options contracts are structured within the options market. Please visit the ***"Options - For Starters"*** guide for futher details on options markets basics.
 
-> If a trader engages an options contract as a **"call"**, then your belief/intent is that the price of the underlying stock will increase – aka being **""bullish""**. 
+## Option Contract Structure: "Calls" vs "Puts"
 
-> If you engage an options contract as a **"put"**, then your belief/intent is that the price of the underlying stock will decrease – aka being **"bearish"**.
-
-### Traditional Finance (TradFi) - "Calls" vs "Puts"
-
-Traditionally, options contracts are structured by requiring two parties to trade.  One is positioned as the Call; the other is positioned as the Put.
+Traditionally, options contracts are structured by requiring **two** parties to trade.  One is positioned as the Call; the other is positioned as the Put.
 
 > Trader A  vs Trader B 
 
 
-### OMLP the TradFi options contract structure disruptor
-OMLPs within OPX disrupts traditional markets by adding another *dimension* to the options contract structure - **single-party** options trading! 
+OMLPs disrupts traditional markets completely by adding another *dimension* to the options contract structure - **single-party** options trading! 
 
-Our OMLPs are single-asset pools (SAPs).  Market makers (short sellers) can now borrow from any of our various SAPs to cover their positions.  Thanks to OMLP, a second options contract structure was born.  Now either two can occur:
+Thanks to OMLP, a second options contract structure was born.  Now traders have the ability to enter options contracts by themselves and against liquidity providers:
 
 > Trader A vs Trader B
+
 > Trader A vs SAP
 
-This new dimension naturally maximizes traders' capital efficiency, but **who** would fund these pools?...
+This new dimension naturally maximizes traders' capital efficiencies and timing strategies by removing their need to deal with other individuals.
 
-### Lending: SAP1 and SAP2
+OMLP is designed as a two-tiered SAP system that prioritizes liquidity from our in-house liquidity provider pools first - named "SAP1".  Once the funds from SAP1 are 100% utilized by traders, funds are then tapped from external liquidity providers - named SAP2.
 
-We designed a two-tiered SAP system that prioritizes liquidity from SAP1 first, and then SAP2.  
+But ***how*** are SAPs funded?
 
-- SAP1: Liquidity is provided to the pool in OPX lenders direct deposit.  Lenders will earn a yield from the fees generated in the form of the pool's asset type.  Our primary goal in designing SAP1 was to create a way in which we can incorporate lenders into options contracts.  By receiving fees and dibs on their liquidity, SAP1 will naturally increase Total Value Locked ([TvL](https://www.google.com/search?q=what+does+total+value+locked+mean%3F&oq=what+does+total+value+locked+mean%3F&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiABDINCAIQABiGAxiABBiKBTINCAMQABiGAxiABBiKBTINCAQQABiGAxiABBiKBTIHCAUQABjvBTIHCAYQABjvBTIKCAcQABiiBBiJBdIBCDg4NTVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8)) and protocol growth.  
+## Lending: SAP1
 
-If all that potential is not enough, SAP1 is a unique form of providing liquidity.  The yield earned from SAP1 is completely resistant to [impermanent loss (IL)!](https://www.google.com/search?q=what+is+impermanent+loss%3F&sca_esv=d6b7cd5f9271c9c7&ei=2pRFaNucOPaDwbkP_cb1uAM&ved=0ahUKEwjb8eXU--GNAxX2QTABHX1jHTcQ4dUDCBA&uact=5&oq=what+is+impermanent+loss%3F&gs_lp=Egxnd3Mtd2l6LXNlcnAiGXdoYXQgaXMgaW1wZXJtYW5lbnQgbG9zcz8yBRAAGIAEMgUQABiABDIFEAAYgAQyBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHkiiR1DnC1jhQ3AEeAGQAQCYAXCgAZsSqgEEMjUuM7gBA8gBAPgBAZgCIKACkRSoAgrCAgoQABiwAxjWBBhHwgILEAAYgAQYkQIYigXCAgsQABiABBixAxiDAcICCBAAGIAEGLEDwgIOEC4YgAQYsQMY0QMYxwHCAhEQLhiABBixAxjRAxiDARjHAcICCxAuGIAEGLEDGIMBwgIKEC4YgAQYQxiKBcICCxAuGIAEGMcBGK8BwgIIEC4YgAQYsQPCAg4QLhiABBjHARiOBRivAcICBRAuGIAEwgIUEAAYgAQY4wQYtAIY6QQY6gLYAQHCAhAQABgDGLQCGOoCGI8B2AEBwgIKEAAYgAQYQxiKBcICEBAuGIAEGNEDGEMYxwEYigXCAg4QABiABBixAxiDARiKBcICDhAuGIAEGLEDGIMBGIoFwgIHEAAYgAQYCsICChAAGIAEGEYY-QHCAiQQABiABBhGGPkBGJcFGIwFGN0EGEYY-QEY9AMY9QMY9gPYAQLCAggQABiABBiiBMICCxAAGIAEGIYDGIoFmAMM8QU-OcVzw-q9HIgGAZAGCLoGBAgBGAe6BgYIAhABGBOSBwQyNi42oAfQ9gGyBwQyMi42uAfzE8IHCDItMjQuNy4xyAfdAQ&sclient=gws-wiz-serp).   
+SAP1 funds are provided to the pool via OPX directly from liquidity providers whom earn yield from fees generated by borrowing traders.  The fees earned come in the form of the pool's asset type.  For example, if the borrower is borrowing from a SOL pool, then the LPers will be paid in SOL, etc.  Our primary goal in designing SAP1 was to create a way in which users who do not want to trade directly can still participate within the options market.  We crafted this two-tiered priority systen to incentivize Total Value Locked ([TvL](https://www.google.com/search?q=what+does+total+value+locked+mean%3F&oq=what+does+total+value+locked+mean%3F&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiABDINCAIQABiGAxiABBiKBTINCAMQABiGAxiABBiKBTINCAQQABiGAxiABBiKBTIHCAUQABjvBTIHCAYQABjvBTIKCAcQABiiBBiJBdIBCDg4NTVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8)) and protocol growth.  
+
+But wait, that is not all! The yield earned from SAP1 is unqiue because it is completely resistant to [impermanent loss (IL).](https://www.google.com/search?q=what+is+impermanent+loss%3F&sca_esv=d6b7cd5f9271c9c7&ei=2pRFaNucOPaDwbkP_cb1uAM&ved=0ahUKEwjb8eXU--GNAxX2QTABHX1jHTcQ4dUDCBA&uact=5&oq=what+is+impermanent+loss%3F&gs_lp=Egxnd3Mtd2l6LXNlcnAiGXdoYXQgaXMgaW1wZXJtYW5lbnQgbG9zcz8yBRAAGIAEMgUQABiABDIFEAAYgAQyBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHkiiR1DnC1jhQ3AEeAGQAQCYAXCgAZsSqgEEMjUuM7gBA8gBAPgBAZgCIKACkRSoAgrCAgoQABiwAxjWBBhHwgILEAAYgAQYkQIYigXCAgsQABiABBixAxiDAcICCBAAGIAEGLEDwgIOEC4YgAQYsQMY0QMYxwHCAhEQLhiABBixAxjRAxiDARjHAcICCxAuGIAEGLEDGIMBwgIKEC4YgAQYQxiKBcICCxAuGIAEGMcBGK8BwgIIEC4YgAQYsQPCAg4QLhiABBjHARiOBRivAcICBRAuGIAEwgIUEAAYgAQY4wQYtAIY6QQY6gLYAQHCAhAQABgDGLQCGOoCGI8B2AEBwgIKEAAYgAQYQxiKBcICEBAuGIAEGNEDGEMYxwEYigXCAg4QABiABBixAxiDARiKBcICDhAuGIAEGLEDGIMBGIoFwgIHEAAYgAQYCsICChAAGIAEGEYY-QHCAiQQABiABBhGGPkBGJcFGIwFGN0EGEYY-QEY9AMY9QMY9gPYAQLCAggQABiABBiiBMICCxAAGIAEGIYDGIoFmAMM8QU-OcVzw-q9HIgGAZAGCLoGBAgBGAe6BgYIAhABGBOSBwQyNi42oAfQ9gGyBwQyMi42uAfzE8IHCDItMjQuNy4xyAfdAQ&sclient=gws-wiz-serp).  The IL resistance is a byproduct of SAP1 that cannot be enjoyed via typical DeFi liquidity pools!   
 
 Once 100% utilization is reached from SAP1 (aka all funds are being borrowed), liquidity is then sourced from SAP2.
 
-- SAP2: Integrated pools from proven Solana liquidity powerhouses like [Kamino](https://app.kamino.finance/liquidity?filter=all&sort=tvl) and [Orca](https://www.orca.so/).  SAP2 will ensure there is always funding with OPX, making it a 24/7 options market!
+## Lending: SAP2
 
-This means OPX offers a *tertiary* dimension to the options contract structure:
+SAP2 integrated pools are sourced from proven Solana liquidity powerhouses like [Kamino](https://app.kamino.finance/liquidity?filter=all&sort=tvl) and [Orca](https://www.orca.so/).  SAP2 ensure there is always funding with OPX, making it a true 24/7 options market!
 
-> Trader A vs Trader B
-> Trader A vs SAP1
-> Trader A vs SAP2
+## Expanding option markets: The Summary
 
-Prior to OMLP, **lenders** were never able participate in options contracts, only trader's could participate.  For the first time, multiple users can participate within an options contract - this is completely innovative and unheard of!
+Prior to OMLP, **lenders** were never able participate in options contracts, only trader's could participate.  For the first time, multiple users can participate within an options contract as either a trader, a market maker, or as a lender - this is completely innovative and unheard of!

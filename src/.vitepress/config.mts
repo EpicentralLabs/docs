@@ -45,7 +45,8 @@ export default defineConfig({
           { text: 'OPX', link: '/products/opx' },
           { text: 'OMLP', link: '/products/omlp' },
           { text: 'xLABS', link: '/products/xlabs' },
-          { text: 'API (Under Development)', link: '/products/api' }
+          { text: 'API (Under Development)', link: '/products/api' },
+          { text: 'OSV (Under Development)', link: '/products/osv' }
           
         ]
       },
