@@ -4,8 +4,7 @@ Introducing **xLABS**, our [staking](https://cointelegraph.com/learn/articles/de
 
 > “xLABS is designed to be sold.” TheLazySol, founder
 
-So, how *does* xLABS work??
-
+---
 ### 1. The Staking:
 Everything starts when a user stakes their [$LABS](https://www.epicentrallabs.com/labs-token) into the Epicentral DAO treasury [wallet.](https://app.realms.today/dao/LABS)  xLABS are instantly minted to the user’s wallet.
 
@@ -24,7 +23,8 @@ The xLABS purchased by OPX are then immediately burned.  This is a ***crucial***
 
 ![xLABS 3](https://gist.github.com/user-attachments/assets/fa20f996-3852-4da6-bab8-a398ae550c8c)
 
-In summary, these three steps are executed as an automatic function of OPX and occur everytime a fee is generated.  Real-time purchasing reduces the price volatility of xLABS,and serves as a safeguard for holders by ensuring constant liquidity on the market – its like a *reverse* rugpull.  
+## Summary
+The above three steps are executed as an automatic function of OPX and occur everytime [fees](/products/fees) are generated.  Real-time purchases of xLABS reduces price volatility and serves as a safeguard for holders by ensuring **constant** liquidity on the market. 
 
 Once the user feels like realizing their yield, they can simply swap xLABS for their desired currency thus completing the life cycle of a xLABS token. It's as simple as staking and selling! 
 

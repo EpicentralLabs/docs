@@ -13,11 +13,9 @@ Options-trading can be complicated enough, so we designed OPX to be user-friendl
 On the trading page you will see values, strike prices, expiration dates and option “greeks” articulately displayed before you; Its all the information you could need without being overwhelmed.
 
 ## Revenue 
-
-OPX generates revenue fees when users open and close their positions - please visit the **Fee** page for more details on how fees are calculated.   
-
+OPX generates revenue fees when users open and close their positions - please visit the [Fees](/products/fees.md) page for more details on how fees are calculated.   
 
 
-## Eligibility
 
-Epicentral Labs, DAO LLC members determine which tokens are eligible via trade on OPX by voting on proposals via [governance](https://www.epicentrallabs.com/dao).
+## Token Eligibility
+Epicentral Labs, DAO LLC members determine which tokens are eligible via trade on OPX by voting on proposals via [governance](/governance/governance).
