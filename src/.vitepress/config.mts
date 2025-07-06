@@ -44,6 +44,9 @@ export default defineConfig({
         items: [
           { text: 'OPX', link: '/products/opx' },
           { text: 'OMLP', link: '/products/omlp' },
+          { text: 'xLABS', link: '/products/xlabs' },
+          { text: 'API (Under Development)', link: '/products/api' }
+          
         ]
       },
 
@@ -51,9 +54,11 @@ export default defineConfig({
         text: 'Solana Options Standard SDK',
         collapsed: true,
         items: [
-          { text: 'Introduction', link: '/option-standard-sdk/introduction' }
+          { text: 'Introduction', link: '/option-standard-sdk/introduction' },
+            { text: 'Options Pricing Model (OPM)', link: '/option-standard-sdk/opm.md' },
         ]
       },
+      
       {
         text: 'Guides',
         collapsed: true,
@@ -64,7 +69,8 @@ export default defineConfig({
             items: [
               { text: '1) - The Foundation', link: '/options-for-starters/intro' },
               { text: '2) - Calls & Puts', link: '/options-for-starters/calls-and-puts' },
-              { text: '3) - Greeks', link: '/options-for-starters/the-greeks' }
+              { text: '3) - Greeks', link: '/options-for-starters/the-greeks' },
+              { text: '4) - TradFi vs Defi', link: '/options-for-starters/tradfi-vs-defi' },
             ]
           }
         ]
