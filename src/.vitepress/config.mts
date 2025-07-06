@@ -42,7 +42,14 @@ export default defineConfig({
         text: 'Products',
         collapsed: true,
         items: [
-          { text: 'OPX', link: '/products/opx' },
+          {
+            text: 'OPX',
+            collapsed: true,
+            items: [
+              { text: 'Protocol', link: '/products/opx' },
+              { text: 'Fees', link: '/products/fees' },
+            ]
+          },
           { text: 'OMLP', link: '/products/omlp' },
           { text: 'xLABS', link: '/products/xlabs' },
           { text: 'API (Under Development)', link: '/products/api' },
@@ -55,8 +62,7 @@ export default defineConfig({
         text: 'Solana Options Standard SDK',
         collapsed: true,
         items: [
-          { text: 'Introduction', link: '/option-standard-sdk/introduction' },
-                  
+          { text: 'Introduction', link: '/option-standard-sdk/introduction' }
         ]
       },
       
@@ -85,7 +91,15 @@ export default defineConfig({
         { text: 'Create an Option', link: '/getting-started/create-an-option' },
         { text: 'Calculating Volatility', link: '/getting-started/calculating-volatility' }
       ]
-      }
+      },
+
+      {
+        text: 'Governance',
+        collapsed: true,
+        items: [
+          { text: 'How We Make Decisions', link: '/governance/governance' },
+      ]
+      },
     ],
     socialLinks:[
       { icon: 'twitter', link: 'https://x.com/EpicentralLabs' },
