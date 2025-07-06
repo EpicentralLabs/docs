@@ -23,11 +23,12 @@ To create a new branch:
 
 ### Branch Naming Convention
 
-Using the Semantic Versioning approach for branch names keeps the format consistent and can be easily identitfied as to what changes were made. The format would look something like this:
+Branch names should start with a `type/` followed by the `/name-of-the-change`. For example: `feature/add-styling-to-guides`. The following appropriate Branch Types are:
 
-```
-v1.0.0
-```
+- `feature/`
+- `patch/`
+- `refactor/`
+- `chore/`
 
 ## Semantic Versioning
 
@@ -49,9 +50,8 @@ When contributing, consider how your changes might affect the project's version 
 2. Write a clear and concise description of your changes in the pull request (please be descriptive where necessary).
 3. Reference any related issues in your pull request description!
 4. Be prepared to make changes based on code review feedback.
-5. **Please ensure that someone REVIEWS THE CODE PRIOR TO MERGING**. This is to ensure a "Maker" / "Checker" system.
-6. Ensure to add the appropriate "label" to the PR after creating the request.
-7. Be sure to associate the PR to a particular organization "project" as well.
+5. Ensure to add the appropriate "label" to the PR after creating the request.
+6. Be sure to associate the PR to a particular organization "project" as well.
 
 ## Code Reviewers
 
