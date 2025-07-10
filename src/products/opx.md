@@ -5,7 +5,7 @@ OPX is our Decentralized Options Exchange protocol and flagship product. Users e
 The three words that best describe OPX are:
 
 - Design
-- Experience (Efficient?)
+- Experience
 - Simplicity
 
 Options-trading can be complicated enough, so we designed OPX to be user-friendly - especially for first-time options traders. Yet, we also wanted to ensure that the technical metrics were concisely displayed so that seasoned traders could use it to their strategic advantage! 

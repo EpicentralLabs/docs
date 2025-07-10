@@ -62,7 +62,8 @@ export default defineConfig({
         text: 'Solana Options Standard SDK',
         collapsed: true,
         items: [
-          { text: 'Introduction', link: '/option-standard-sdk/introduction' }
+          { text: 'Introduction', link: '/option-standard-sdk/introduction' },
+          { text: 'OPM', link: '/option-standard-sdk/opm' },
         ]
       },
       
