@@ -10,6 +10,8 @@ Traditionally, options contracts are structured by requiring **two** parties to 
 > Trader A  vs Trader B 
 
 
+![alt text](<OMLP img 1.png>)
+
 OMLPs disrupts traditional markets completely by adding another *dimension* to the options contract structure - **single-party** options trading! 
 
 Thanks to OMLP, a second options contract structure was born.  Now traders have the ability to enter options contracts by themselves and against liquidity providers:
